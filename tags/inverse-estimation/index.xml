@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inverse Estimation on A Hugo website</title>
+    <link>/tags/inverse-estimation/</link>
+    <description>Recent content in Inverse Estimation on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/inverse-estimation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Happy 4th birthday to the investr package!</title>
+      <link>/2017/08/09/happy-4th-birthday-to-the-investr-package/</link>
+      <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/08/09/happy-4th-birthday-to-the-investr-package/</guid>
+      <description>I am pleased to announce that investr, my very first R package, has now been on CRAN for four years! investr, which is short for inverse estimation in R and has nothing to do with investing, contains functions that facilitate inverse estimation (e.g., statistical calibration) in linear, generalized linear, nonlinear, and (linear) mixed-effects models. A generic function, plotFit, is also provided for plotting fitted regression models with or without confidence/prediction bands that may be of use to the general user.</description>
+    </item>
+    
+  </channel>
+</rss>
