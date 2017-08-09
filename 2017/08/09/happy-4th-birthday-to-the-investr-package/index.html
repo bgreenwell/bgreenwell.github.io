@@ -35,19 +35,19 @@
       <header class="header">
         <nav class="nav">
   <a href="/" class="nav-logo">
-    <img src="/images/logo.png"
-         width="50"
-         height="50"
-         alt="Logo">
+    <img src="/images/%3cnil%3e"
+         width=""
+         height=""
+         alt="">
   </a>
 
   <ul class="nav-links">
     
-    <li><a href="/about/">About</a></li>
+    <li><a href="/about/">About Me</a></li>
     
-    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    <li><a href="/post/">Blog</a></li>
     
-    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
+    <li><a href="https://github.com/bgreenwell">GitHub</a></li>
     
   </ul>
 </nav>
@@ -175,10 +175,10 @@ invest(nas.nls, y0 = c(309, 296, 419), interval = &quot;Wald&quot;)  </code></pr
 <p>The intervals both rely on large sample results and normality. In practice, the bootstrap may be more reliable:</p>
 <pre class="r"><code># Bootstrap calibration intervals (may take a few seconds)
 boo &lt;- invest(nas.nls, y0 = c(309, 296, 419), interval = &quot;percentile&quot;, 
-              nsim = 9999, seed = 101)
+              nsim = 999, seed = 101)
 boo  # print bootstrap summary</code></pre>
 <pre><code>##  estimate     lower     upper        se      bias 
-## 2.2638535 1.7889885 2.9380360 0.2946540 0.0281456</code></pre>
+## 2.2638535 1.8005534 2.9335622 0.2909187 0.0320422</code></pre>
 <pre class="r"><code>plot(boo)  # plot results</code></pre>
 <p><img src="/post/2017-08-09-happy-4th-birthday-to-the-investr-package_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 </div>
